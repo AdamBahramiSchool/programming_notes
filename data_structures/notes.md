@@ -1,5 +1,3 @@
-## Dynamic Array Behavior ## 
-
 import java.util.Arrays;
 
 public class Array {
@@ -19,8 +17,9 @@ public class Array {
         }
     }
 
+    //you have static array that's full. if pushing to it, and size is full, create new array double the size and copy original in
+
     public void push_array(int num){
-//        you have static array that's full. if pushing to it, and size is full, create new array double the size and copy original in
         if(this.count==(this.size)){
             int[] new_arr = new int[this.size*2];
             for(int i=0; i<this.size;i++){
