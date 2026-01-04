@@ -1,5 +1,4 @@
-## Dynamic Arrays Behavior
-
+## Dynamic Array Behavior ## 
 
 import java.util.Arrays;
 
